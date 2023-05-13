@@ -111,7 +111,11 @@ To specify which port has to be monitored use the following command:
 
 ## Configuration
 
-If your project requires configuration files or settings, explain how to configure them. Provide details on the purpose of each configuration option and how it affects the project's behavior. Include examples or sample configuration files if applicable.
+The logkeeper service bases/fetches its configurations on the `log-keeper` config file, which should be located in the same directory as the other files. However if this is not the case please make use of the following command:
+
+        logkeeper check file
+
+This command should activate the `logkeeper-monitor.sh` script and this script will adjust everything for you, see it as a debugging tools. However this script should be working by default
 
 ## Contributing
 
