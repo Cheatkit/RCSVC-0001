@@ -115,7 +115,7 @@ The logkeeper service bases/fetches its configurations on the `log-keeper` confi
 
         logkeeper check file
 
-This command should activate the `logkeeper-monitor.sh` script and this script will adjust everything for you, see it as a debugging tools. However this script should be working by default
+This command should activate the `logkeeper-monitor.sh` script and this script will adjust everything for you, see it as a debugging tools. However this script should be working by default.
 
 ## Contributing
 
