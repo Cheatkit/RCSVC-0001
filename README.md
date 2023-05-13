@@ -51,7 +51,55 @@ These functions collectively provide the functionality to monitor and log networ
 
 ## Installation
 
-Provide step-by-step instructions on how to install and set up your project. Include any dependencies or prerequisites that need to be installed beforehand. You can also provide example commands or scripts to facilitate the installation process.
+To install and set up the logkeeper script, follow these steps:
+
+ 1. Start Linux
+    
+    Start your linuxsystem on which you want to install and run the script on. This script will run on the following linux distributions:
+        
+        1. Ubuntu
+        2. Fedora
+        3. Debian
+        4. CentOS
+        5. Kali Linux
+        6. Linux Mint
+    
+    It will run on any system which has the same file architecture as Linux Ubuntu 22.04
+
+ 2. Create file installer.sh
+     
+    Create the installer.sh file for the installation of the logging script. This can be done by using the `touch` command. The follwing command would look like this:
+
+        touch installer.sh
+
+ 3. Set permissions for the installer.sh file
+
+    Setting the file permissions for the `installer.sh` file is a crucial step to install the logkeeper service. To set the file permissions for the `installer.sh` file you can use the `chmod` command. The command for setting the permissions of `installer.sh` file to executable is the following:
+
+        chmod +x installer.sh
+
+ 4. Running the installer.sh file
+
+    While normally running shell-scripts you only need to go into the directory, where the script file is. Now for the `installer.sh` file you'll need `sudo` or `root` privileges or else the installation wont work. So please use the `sudo` command to run/execute the shell-script. To run/execute the shell-script you can use the following command: 
+
+        sudo ./installer.sh
+
+    Now you only have to wait for everything to install correctly
+
+ 5. Check the installation
+    
+    You can check if everything was installed properly by checking the created `outfile` of the `install.sh` file. This file should be created at `/var/log/logkeeper/installer/` if it isnt created at the given location use the `locate` command to search for the outfile.
+
+    If it isnt at the following path as specified `/var/log/logkeeper/installer/` you can use the following command:
+
+        find / -name "outfile.txt" -type f -mtime -1
+
+    or alternatively use the `locate` command
+
+        sudo updatedb
+        locate filename
+
+
 
 ## Usage
 
