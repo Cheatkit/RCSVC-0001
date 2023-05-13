@@ -98,12 +98,16 @@ To install and set up the logkeeper script, follow these steps:
 
         sudo updatedb
         locate filename
-
-
+    
+    Et voila your logkeeper service is installed.
 
 ## Usage
 
-Explain how to use your project. Provide examples and demonstrate the different functionalities available. If there are command-line options or parameters, describe them here. You can include code snippets, screenshots, or gifs to illustrate the usage.
+To use the service just use the explained commands below:
+
+To specify which port has to be monitored use the following command:
+
+    COMMAND
 
 ## Configuration
 
