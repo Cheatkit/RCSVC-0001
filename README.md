@@ -131,4 +131,4 @@ Optionally, provide contact information or links to relevant resources where use
 
 ---
 
-Feel free to adapt the sections and content according to your specific project needs. Including comprehensive and clear documentation in your README will greatly help users understand and use your project effectively.
+&copy; CastouloLee 2023
