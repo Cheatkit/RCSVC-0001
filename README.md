@@ -123,7 +123,12 @@ Specify how others can contribute to your project. If you welcome contributions,
 
 ## License
 
-Indicate the license under which your project is distributed. Mention any third-party libraries or dependencies and their respective licenses, if applicable. You can provide a link to the full license text in a separate file if necessary.
+The Logkeeper service inherites the base liscence of the RCPRC organization.
+- [GNU Affero General Public License v3.0](https://github.com/RCPRC/.github/blob/main/LICENSE)
+
+## Disclaimer
+
+This script is provided as-is without any warranty. The authors and contributors of the script are not responsible for any consequences resulting from its usage. Use it at your own risk.
 
 ## Contact
 
